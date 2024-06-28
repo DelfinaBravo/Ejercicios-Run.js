@@ -1,3 +1,5 @@
+/*5- Que reciba el array de 10 numeros y devuelva true o false
+si hay numeros repetidos.*/
 rangoDiez(10,100)
 function repe(vector){
     for(i=0;i<vector.length; i++){

@@ -1,3 +1,6 @@
+/*1) Que tome un array de 5 numeros con decimales y devuelva 
+un array con los numeros redondeados*/
+
 /*redondea para arriba*/
 function redondeo(vector){
     for(i = 0;i<5;i++){

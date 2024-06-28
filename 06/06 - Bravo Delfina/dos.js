@@ -1,3 +1,5 @@
+/*2- Que reciba un array de 5 dias y devuelva true o false
+ si algun dia del array es fin de semana.*/
 function finde(dias){
 
     for(i=0;i<vector.length; i++){
