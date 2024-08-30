@@ -8,6 +8,7 @@ function encriptarCesar(texto, desplazamiento) {
    
     for (let i = 0; i < texto.length; i++) {
         let char = texto.charCodeAt(i);
+        
         //Encriptar mayúsculas (A-Z). Verifica si es mayuscula en la tabla ASCII
         if (char >= 65 && char <= 90) {
             /*--------------> char - 65: conversion del codigo ASCII a un indice de 0 a 25 (correspondientes a 0 = 'A' y 25 = 'Z')
